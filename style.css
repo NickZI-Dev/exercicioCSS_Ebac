@@ -62,6 +62,25 @@ main {
   align-items: center;
 }
 
+.position-info {
+  display: grid;
+  margin-top: 1rem;
+  gap: 1.25rem;
+}
+
+.position-info a {
+  background-color: #000000;
+  border-radius: 4px;
+  justify-self: baseline;
+  padding: 1rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.position-info a:hover {
+  background-color: #707070;
+}
+
 /* Cabeçalho-menu */
 
 .menu-header {
@@ -125,24 +144,6 @@ ul {
   margin: 50px;
 }
 
-.position-info {
-  display: grid;
-  margin-top: 1rem;
-  gap: 1.25rem;
-}
-
-.position-info a {
-  background-color: #000000;
-  border-radius: 4px;
-  justify-self: baseline;
-  padding: 1rem;
-  text-transform: uppercase;
-  transition: 0.3s;
-}
-
-.position-info a:hover {
-  background-color: #707070;
-}
 
 
 /* Conteudo-Economia */
