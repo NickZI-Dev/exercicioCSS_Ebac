@@ -1,0 +1,222 @@
+/* Configurações-Gerais */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: #f7f7f7;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  border: 2px solid;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+time {
+  color: #464646;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  display: grid;
+  margin-top: 2.25rem;
+  justify-items: center;
+  gap: 2.15rem;
+}
+
+.container-format {
+  display: flex;
+  max-width: 1600px;
+  margin-top: 2rem;
+  position: relative;
+  transition: 0.6s;
+  padding: 4rem;
+  align-items: center;
+}
+
+/* Cabeçalho-menu */
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem;
+  background: #000000;
+  width: 100%;
+}
+
+.menu-header h1 {
+  color: #ffffff;
+}
+.menu-header ul li a {
+  transition: 0.3s;
+}
+.sport-link:hover {
+  color: #00ad63;
+}
+.economy-link:hover {
+  color: #F8f400;
+}
+.games-link:hover {
+  color: #9781b7;
+}
+.animes-link:hover {
+  color: #7d7d7d;
+}
+
+nav {
+  display: grid;
+  justify-self: center;
+}
+ul {
+  gap: 3rem;
+  display: flex;
+}
+
+
+/* conteudo-Esportes */
+
+#sports {
+  margin-top: 4.12rem;
+  background: #89ca9d;
+  border: 2px solid #00ad63;
+}
+#sports:hover {
+  background: #00ad63;
+}
+#sports h2 {
+  border: 2px solid #00ad63;
+  position: absolute;
+  right: 50%;
+  top: -30px;
+  background-color: #89ca9d;
+  padding: 1rem;
+  display: inline-block;
+}
+#sports section {
+  margin: 50px;
+}
+
+.position-info {
+  display: grid;
+  margin-top: 1rem;
+  gap: 1.25rem;
+}
+
+.position-info a {
+  background-color: #000000;
+  border-radius: 4px;
+  justify-self: baseline;
+  padding: 1rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.position-info a:hover {
+  background-color: #707070;
+}
+
+
+/* Conteudo-Economia */
+
+#economy {
+  background: #fff99d;
+  border: 2px solid #F8f400;
+}
+#economy:hover {
+  background: #f8f400;
+}
+#economy section {
+  margin: 50px;
+}
+#economy h2 {
+  border: 2px solid #f8f400;
+  padding: 1rem;
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  right: 50%;
+  background: #fff99d;
+  
+}
+
+
+/* Conteúdo-Games */
+
+#games {
+  background: #9781b7;
+  border: 2px solid #9781b7;
+}
+
+#games:hover {
+  background: #6f559d;
+}
+#games section {
+  margin: 50px;
+}
+#games h2 {
+  position: absolute;
+  top: -30px;
+  right: 50%;
+  display: inline-block;
+  border: 2px solid #6f559d;
+  padding: 1rem;
+  background: #9781b7;
+}
+
+
+/* Conteúdo-Animes */
+
+#animes {
+    background: #7d7d7d;
+    border: 2px solid #980034;
+}
+
+#animes:hover {
+  background: #636363;
+}
+
+#animes a:hover {
+  background: #464646;
+}
+
+#animes section {
+  margin: 50px;
+}
+
+#animes h2 {
+  position: absolute;
+  top: -30px;
+  right: 50%;
+  padding: 1rem;
+  border: 2px solid;
+  background: #980034;
+}
